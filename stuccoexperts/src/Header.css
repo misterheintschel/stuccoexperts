@@ -1,5 +1,11 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
 .navbar{
-    background-color:var(--primary-color);
+    background-color:grey;
     color:#fff;
     height:90px;
 }
