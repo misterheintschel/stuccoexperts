@@ -10,10 +10,40 @@
     align-content: center;
     opacity: 30%;
     position:relative;
-    size:100vh
+    size:100vh;
+    border:none;
 }
 
 .background_img img {
     width: 75%;
     height: auto;
+    border: none;
+}
+
+.placeholder-text{
+    display:flex;
+}
+.placeholder-text h2{
+    width:50%;
+    border-style: solid;
+    border-width: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left:25vw;
+    margin-top:45px;
+}
+
+.message {
+    display:flex;
+    width:50%;
+    border-style: solid;
+    border-width: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left:25vw;
+    margin-top:45px;
+}
+
+.contactus li{
+    font-size:50px;
 }

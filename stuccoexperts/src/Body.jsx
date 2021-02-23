@@ -24,13 +24,15 @@ const Body = () => (
       <Route path="/home">
         <div className="main">
           <div className="placeholder">
-            <h2>{description}</h2>
+            <div className="placeholder-text">
+              <h2>{description}</h2>
+            </div>
             <div className="background_img">
               <img src={logo} alt="" />
             </div>
           </div>
           <div className="message">
-            <p>{paragraph}</p>
+            <h2>{paragraph}</h2>
           </div>
           <div className="contactus">
             <a href="contact.html">
