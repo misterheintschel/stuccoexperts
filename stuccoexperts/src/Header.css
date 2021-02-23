@@ -1,25 +1,78 @@
 *{
     padding:0;
     margin:0;
+    text-decoration:none;
+    font-family: 'Fraunces', serif;
 }
 
-
 .navbar{
-    background-color:grey;
+    background-color:rgb(63, 63, 63);
     color:#fff;
     height:90px;
 }
+
+
+.logo-png{
+    width:150px;
+    height:80px;
+    justify-content:left;
+}
+
+.logo-png img{
+    display:flex-start;
+    width:100%;
+    height:auto;
+    vertical-align: middle;
+    padding-top:5px;
+    padding-left:0px;
+}
+
+.logo-text{
+    padding-top:20px;
+    display:inline-flex;
+    float:inherit;
+    font-size:32px;
+    border:rgb(221, 128, 7);
+    font-weight:100;
+    color:rgb(255, 255, 255);
+    text-shadow:
+        0.04em 0 rgb(221, 128, 7),
+        0 0.04em rgb(221, 128, 7),
+        -0.04em 0 rgb(221, 128, 7),
+        0 -0.04em rgb(221, 128, 7);
+}
+.logo-text span{
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+    font-weight:900;
+    color:rgb(221, 128, 7);
+}
 .navbar ul{
     display:flex;
+    list-style: none;
+    justify-content: right;
+    padding-bottom:5px;
+    font-size: 20px;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
 }
 
 .navbar a {
     color:#fff;
     padding:10px;
     margin:0 5px;
+    text-decoration: none;
 }
+
+
 .navbar a:hover{
-    border-bottom:2px #fff solid;
+    border-bottom:4px rgb(221, 128, 7) solid;
 }
 
 .navbar .flex{

@@ -1,0 +1,19 @@
+*{list-style:none;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family: 'Fraunces', serif;
+}
+
+.background_img{
+    margin:auto;
+    align-content: center;
+    opacity: 30%;
+    position:relative;
+    size:100vh
+}
+
+.background_img img {
+    width: 75%;
+    height: auto;
+}

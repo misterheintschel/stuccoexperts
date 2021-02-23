@@ -1,6 +1,7 @@
 import React from "react"
-
+import "./Body.css"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import logo from "./logo.png"
 
 const description =
   "With more than 40 years of " +
@@ -17,15 +18,15 @@ const paragraph =
 const Body = () => (
   <Router>
     <Switch>
-      <Route path="/marcus">
-        <h1>MARCUSMARCUSMARCUS</h1>
+      <Route path="/contactus">
+        <h1>Contact Us</h1>
       </Route>
-      <Route path="/asdf">
+      <Route path="/home">
         <div className="main">
           <div className="placeholder">
             <h2>{description}</h2>
             <div className="background_img">
-              <img src="logo.png" alt="" />
+              <img src={logo} alt="" />
             </div>
           </div>
           <div className="message">
