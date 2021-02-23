@@ -21,7 +21,7 @@ const Header = () => (
             <a href="about">About Us</a>
           </li>
           <li>
-            <a href="getaquote.html">Get a Quote</a>
+            <a href="getaquote">Get a Quote</a>
           </li>
           <li>
             <a href="contactus">Contact Us</a>
