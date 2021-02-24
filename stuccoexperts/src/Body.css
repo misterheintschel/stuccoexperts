@@ -53,13 +53,12 @@
 }
 
 /* Contact Page */
-    
-    
+
+
 
 
 .content .contactInfo{
     position:relative;
-    padding:20px 100px;
     display:flex;
     justify-content: center;
     align-items:center;

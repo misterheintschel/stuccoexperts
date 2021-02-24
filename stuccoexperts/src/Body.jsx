@@ -2,6 +2,7 @@ import React from "react"
 import "./Body.css"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import logo from "./logo.png"
+import ContactSheet from "./ContactSheet"
 
 const description =
   "With more than 40 years of " +
@@ -17,50 +18,7 @@ const paragraph =
 
 const about = "About Us"
 
-const contact = "Contact Us"
-
 const getaquote = "Get a Quote"
-
-const contactSheet = (
-  <div className="contactInfo">
-    <div className="box">
-      <div className="icon">
-        <i className="fa fa-id-badge" aria-hidden="true" />
-      </div>
-      <div className="text">
-        <h3>President</h3>
-        <p>Matt Heintschel</p>
-      </div>
-    </div>
-    <div className="box">
-      <div className="icon">
-        <i className="fa fa-map-marker" aria-hidden="true" />
-      </div>
-      <div className="text">
-        <h3>Address</h3>
-        <p>2150 N Centre City Pkwy, Ste K-1 Escondido, CA 92026</p>
-      </div>
-    </div>
-    <div className="box">
-      <div className="icon">
-        <i className="fa fa-envelope" aria-hidden="true" />
-      </div>
-      <div className="text">
-        <h3>Email</h3>
-        <p>info@stuccoexpertsinc.com</p>
-      </div>
-    </div>
-    <div className="box">
-      <div className="icon">
-        <i className="fa fa-phone" aria-hidden="true" />
-      </div>
-      <div className="text">
-        <h3>Phone</h3>
-        <p>(760) 743-5901</p>
-      </div>
-    </div>
-  </div>
-)
 
 const Body = () => (
   <Router>
@@ -79,8 +37,8 @@ const Body = () => (
             <h2>{paragraph}</h2>
           </div>
           <div className="contactus">
-            <a href="contactus">
-              <li>{contact}</li>
+            <a href="contact-us">
+              <li>Contact Us</li>
             </a>
           </div>
         </div>
@@ -90,14 +48,13 @@ const Body = () => (
           <h1>{about}</h1>
         </div>
       </Route>
-      <Route path="/getaquote">
+      <Route path="/get-a-quote">
         <div className="get-a-quote">
           <h1>{getaquote}</h1>
         </div>
       </Route>
-      <Route path="/contactus">
-        <h1>{contact}</h1>
-        <div className="content">{contactSheet}</div>
+      <Route path="/contact-us">
+        <ContactSheet />
       </Route>
     </Switch>
   </Router>
