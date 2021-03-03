@@ -36,11 +36,6 @@ const Body = () => (
           <div className="message">
             <h2>{paragraph}</h2>
           </div>
-          <div className="contactus">
-            <a href="contact-us">
-              <li>Contact Us</li>
-            </a>
-          </div>
         </div>
       </Route>
       <Route path="/about">

@@ -3,86 +3,104 @@
     padding:0;
     text-decoration:none;
     font-family: 'Fraunces', serif;
+    color:white;
 }
+
+
+html{
+    height:100%;
+    background-color: black;
+}
+
 
 .background_img{
     margin:auto;
-    align-content: center;
-    opacity: 30%;
-    position:relative;
+    text-align:center;
+    justify-content: center;
     size:100vh;
     border:none;
 }
 
 .background_img img {
-    width: 75%;
-    height: auto;
-    border: none;
+    width:50%;
+    justify-content: center;
+    background-color:rgb(184, 184, 184);
+    border-radius:25%;
+    margin-left:45px;
+    margin-top:15px;
+    margin-bottom: 15px;
 }
 
 .placeholder-text{
     display:flex;
+    text-align:center;
 }
 .placeholder-text h2{
+    color:white;
     width:50%;
     border-style: solid;
     border-width: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    border-color: rgb(184, 184, 184);
     margin-left:25vw;
     margin-top:45px;
+    padding:15px;
 }
 
 .message {
+    color:white;
     display:flex;
     width:50%;
     border-style: solid;
     border-width: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    border-color: rgb(184, 184, 184);
+    padding:15px;
     margin-left:25vw;
     margin-top:45px;
-}
-
-.contactus li{
-    font-size:36px;
-    margin-top:10vh;
-    margin-bottom:15vh;
-    text-decoration:underline;
-
 }
 
 /* Contact Page */
 
 
-
-
-.content .contactInfo{
-    position:relative;
+.content{
     display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction:column;
     background-color:black;
-    background-size:cover;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    margin-top:30px;
+    flex-direction:row;
+    height:100%;
 }
+.page h1{
+    padding-top:20px;
+    text-align:center;
+    color:white;
+    background-color:black;
+}
+
+.content img{
+    width:60%;
+    background-color:white;
+    border-radius:25%;
+    margin-left:45px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
 .contactInfo {
-    width: 50%;
+    margin-left:30px;
+    width: 35%;
+    margin-top:45px;
     display:flex;
     flex-direction: column;
+    text-align:left;
+    justify-content:center;
+    background-color:black;
 }
-.contactInfo .box{
+.contactInfo .contactInfoItem{
     position:relative;
     padding:20px 0;
     display:flex;
 }
-.contactInfo .box .icon {
+.contactInfo .contactInfoItem .icon {
     min-width: 60px;
+    max-width: 60px;
     height: 60px;
     background:chocolate;
     display:flex;
@@ -93,7 +111,7 @@
 
 }
 
-.contactInfo .box .text {
+.contactInfo .contactInfoItem .text {
     display:flex;
     margin-left:20px;
     font-size:16px;
@@ -102,7 +120,7 @@
     font-weight: 300;
 }
 
-.contactInfo .box .text h3{
+.contactInfo .contactInfoItem .text h3{
     font-weight:500;
     color:chocolate;
 

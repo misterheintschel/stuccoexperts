@@ -1,5 +1,6 @@
 {
-  "name": "stuccoexperts",
+  "name": "stuccoexpertsinc",
+  "homepage": "https://www.stuccoexpertsinc.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
