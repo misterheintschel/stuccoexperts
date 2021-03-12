@@ -17,10 +17,13 @@ const Header = () => (
           <a href="home">Home</a>
         </li>
         <li>
-          <a href="about">About Us</a>
+          <a href="about-us">About Us</a>
         </li>
         <li>
-          <a href="get-a-quote">Get a Quote</a>
+          <a href="gallery">Gallery</a>
+        </li>
+        <li>
+          <a href="services-get-a-quote">Services</a>
         </li>
         <li>
           <a href="contact-us">Contact Us</a>

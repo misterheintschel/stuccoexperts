@@ -38,12 +38,15 @@ const Body = () => (
           </div>
         </div>
       </Route>
-      <Route path="/about">
+      <Route path="/about-us">
         <div className="about-us">
           <h1>{about}</h1>
         </div>
       </Route>
-      <Route path="/get-a-quote">
+      <Route path="/gallery">
+
+      </Route>
+      <Route path="/services-get-a-quote">
         <div className="get-a-quote">
           <h1>{getaquote}</h1>
         </div>
