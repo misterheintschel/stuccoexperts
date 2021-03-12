@@ -1,4 +1,4 @@
-# This is a basic react app! Hey Marcus :)
+# This is a basic react app for https://www.stuccoexpertsinc.com ! 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
