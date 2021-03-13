@@ -1,0 +1,37 @@
+.gallery{
+    margin:5px;
+    border: 1px solid #ccc;
+    float:left;
+    width:75%;
+    display:flex;
+    text-align:center;
+}
+
+.gallery:hover{
+    border:1px solid #777;
+
+}
+
+.gallery img{
+    width:100%;
+    height:auto;
+}
+
+.desc{
+    padding:16px;
+    text-align:center;
+}
+
+.gallery button{
+    display:flex;
+    padding:10px 30px;
+    cursor:pointer;
+    background:#777;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+.gallery button:hover{
+    background-color:rgb(221, 128, 7);
+}

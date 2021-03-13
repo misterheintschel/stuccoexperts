@@ -3,6 +3,7 @@ import "./Body.css"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import logo from "./logo.png"
 import ContactSheet from "./ContactSheet"
+import Gallery from "./Gallery"
 
 const description =
   "With more than 40 years of " +
@@ -44,9 +45,7 @@ const Body = () => (
         </div>
       </Route>
       <Route path="/gallery">
-        <div>
-          <h1>Gallery</h1>
-        </div>
+        <Gallery />
       </Route>
       <Route path="/services-get-a-quote">
         <div className="get-a-quote">
