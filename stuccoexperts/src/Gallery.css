@@ -4,17 +4,19 @@
     float:left;
     width:75%;
     display:flex;
+    flex-direction: column;
     text-align:center;
 }
 
 .gallery:hover{
-    border:1px solid #777;
+    border:5px solid #777;
 
 }
 
-.gallery img{
+.gallery-images{
     width:100%;
     height:auto;
+    justify-content: center;
 }
 
 .desc{

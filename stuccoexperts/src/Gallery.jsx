@@ -106,9 +106,11 @@ class Main extends Component {
   render() {
     return (
       <div className="gallery">
-        <img src={this.state.picList[this.state.index]} />
-        <button onClick={this.onClickPrevious}> Previous </button>
-        <button onClick={this.onClickNext}> Next </button>
+        <div className="gallery-images">
+          <img src={this.state.picList[this.state.index]} alt="" />
+        </div>
+        <button type="button" onClick={this.onClickPrevious}> Previous </button>
+        <button type="button" onClick={this.onClickNext}> Next </button>
       </div>
     )
   }
