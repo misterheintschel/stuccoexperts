@@ -1,19 +1,22 @@
+h1{
+    text-align:center;
+    margin-top:5px;
+}
 .gallery{
     margin:5px;
-    border: 1px solid #ccc;
-    float:left;
+    border: 5px solid #ccc;
+    border-style:ridge;
     width:75%;
-    display:flex;
+    display:block;
     flex-direction: column;
     text-align:center;
+    justify-content: center;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:5px;
 }
 
-.gallery:hover{
-    border:5px solid #777;
-
-}
-
-.gallery-images{
+.gallery img{
     width:100%;
     height:auto;
     justify-content: center;
@@ -24,16 +27,22 @@
     text-align:center;
 }
 
-.gallery button{
+.gallery-button button{
+    text-align:center;
     display:flex;
+    flex-direction:row;
+    margin-right:auto;
+    margin-left:auto;
+    width: 100px;
     padding:10px 30px;
     cursor:pointer;
     background:#777;
     color:white;
     border:none;
-    border-radius:5px;
+    border-radius:20px;
+
 }
 
-.gallery button:hover{
+.gallery-button button:hover{
     background-color:rgb(221, 128, 7);
 }

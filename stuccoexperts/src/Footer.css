@@ -1,4 +1,6 @@
 *{
     text-decoration:none;
     font-family: 'Fraunces', serif;
+    display:flex;
+    flex-direction:column-reverse;
 }

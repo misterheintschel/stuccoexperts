@@ -105,12 +105,15 @@ class Main extends Component {
 
   render() {
     return (
-      <div className="gallery">
-        <div className="gallery-images">
+      <div>
+        <h1>Photo Gallery</h1>
+        <div className="gallery">
           <img src={this.state.picList[this.state.index]} alt="" />
         </div>
-        <button type="button" onClick={this.onClickPrevious}> Previous </button>
-        <button type="button" onClick={this.onClickNext}> Next </button>
+        <div className="gallery-button">
+          <button type="button" onClick={this.onClickPrevious}> Previous </button>
+          <button type="button" onClick={this.onClickNext}> Next </button>
+        </div>
       </div>
     )
   }
@@ -118,14 +121,3 @@ class Main extends Component {
 
 export default Main
 
-/*
-const Gallery = () => (
-    <div className="gallery">
-        <a target="_blank" href={facade}>
-            <img src={facade} alt="Stucco Wall"/>
-        </a>
-        <div className="desc">this is a building check this shit out</div>
-    </div>
-)
-export default Gallery
-*/

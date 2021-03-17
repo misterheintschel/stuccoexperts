@@ -24,21 +24,6 @@ const getaquote = "Get a Quote"
 const Body = () => (
   <Router>
     <Switch>
-      <Route path="/home">
-        <div className="main">
-          <div className="placeholder">
-            <div className="placeholder-text">
-              <h2>{description}</h2>
-            </div>
-            <div className="background_img">
-              <img src={logo} alt="" />
-            </div>
-          </div>
-          <div className="message">
-            <h2>{paragraph}</h2>
-          </div>
-        </div>
-      </Route>
       <Route path="/about-us">
         <div className="about-us">
           <h1>{about}</h1>
@@ -54,6 +39,21 @@ const Body = () => (
       </Route>
       <Route path="/contact-us">
         <ContactSheet />
+      </Route>
+      <Route path="/">
+        <div className="main">
+          <div className="placeholder">
+            <div className="placeholder-text">
+              <h2>{description}</h2>
+            </div>
+            <div className="background_img">
+              <img src={logo} alt="" />
+            </div>
+          </div>
+          <div className="message">
+            <h2>{paragraph}</h2>
+          </div>
+        </div>
       </Route>
     </Switch>
   </Router>
